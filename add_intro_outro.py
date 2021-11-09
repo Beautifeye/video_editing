@@ -13,7 +13,7 @@ parser.add_argument('--output_dir', help='folder containing results', required=T
 def edit_video(intro, outro, video_path):
     
     # load video
-    my_clip = VideoFileClip(video_path).subclip(0, 10)
+    my_clip = VideoFileClip(video_path)
     
     # add intro audio as video background
     original_audio = my_clip.audio
