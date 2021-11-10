@@ -17,3 +17,5 @@ bg_music 	: music file to mix in background with audio of each file in input_dir
 - if output_dir is not given automatically create a directory called sparkd_video_output
 - if bg_music is not provided, skip the mixing with clip audio 
 - parameterise padding and background_mixed_track_level, so that from the args of the script I can pass the desired parameters 
+- add api calls to google text-to-speech, put token in the parameters, dump the scripts into a file .txt, same name of the output videos
+- 
